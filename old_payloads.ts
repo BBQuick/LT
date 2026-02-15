@@ -1,0 +1,97 @@
+export const PAYLOADS: Record<string, any> = {
+    Nflesh:{"head": {"cmdDataSplitLength": 0,"cmdId": 35,"cmdLength": 0,"cmdSequence": 0,"cmdVersion": 20,"headVersion": 0,"timestamp": 0,"crcVerify": 0,"platform": 0,"reconnect": false,"sid": "","uid": ""}},
+    ER_acti:{
+    "head":{"cmdDataSplitLength":0,"cmdId":262,"cmdLength":0,"cmdSequence":0,"cmdVersion":900,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"fuid":0},
+    user_message:{
+    "head":{"cmdDataSplitLength":0,"cmdId":26,"cmdLength":0,"cmdSequence":0,"cmdVersion":900,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"fuid":9682371024},
+    battle_message:{
+    "head":{"cmdDataSplitLength":0,"cmdId":232,"cmdLength":0,"cmdSequence":0,"cmdVersion":900,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"type":0,"param":"18-0-0","fuid":9682371024},
+    refreshUserInfo: {"head": {"cmdDataSplitLength": 0,"cmdId": 1,"cmdLength": 0,"cmdSequence": 1,"cmdVersion": 20,"headVersion": 0,"timestamp": 0,"crcVerify": 0,"platform": 0,"reconnect": false,"sid": "","uid": ""}},
+    dailyShopFree: [
+        {
+            name: "商城广告钻石",
+            num: 1,
+            data: {"head":{"cmdDataSplitLength":0,"cmdId":96,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"id":1}
+        },
+        {
+            name: "商城广告金币",
+            num: 2,
+            data: {"head":{"cmdDataSplitLength":0,"cmdId":96,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"id":2}
+        },
+        {
+            name: "商城广告核弹",
+            num: 2,
+            data: {"head":{"cmdDataSplitLength":0,"cmdId":96,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"id":3}
+        },
+        {
+            name: "商城广告扫荡卡",
+            num: 5,
+            data: {"head":{"cmdDataSplitLength":0,"cmdId":96,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"id":4}
+        },
+        {
+            name: "商城广告限购礼包",
+            num: 1,
+            data: {"head":{"cmdDataSplitLength":0,"cmdId":101,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"id":1,"orderId":""}
+        }
+    ],
+    dailyEnergyReward: {"head":{"cmdDataSplitLength":0,"cmdId":11,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"shopIndex":3,"sdTargetData":{"type":8,"sd_id":1,"quality":3,"level":0,"num":-1},"adBuy":"1"},
+    dailyEquipReward: [
+        {
+            name: "普通装备宝箱",
+            num: 1,
+            data: {"head":{"cmdDataSplitLength":0,"cmdId":11,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"shopIndex":4,"sdTargetData":{"type":12,"sd_id":21,"quality":4,"level":0,"num":10},"adBuy":"1"}
+        },
+        {
+            name: "高级装备宝箱",
+            num: 1,
+            data: {"head":{"cmdDataSplitLength":0,"cmdId":11,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"shopIndex":4,"sdTargetData":{"type":12,"sd_id":22,"quality":4,"level":0,"num":10},"adBuy":"1"}
+        }
+    ],
+    dailyExploreReward: [
+        {
+            name: '免费探索',
+            num: 2,
+            data: {"head":{"cmdDataSplitLength":0,"cmdId":87,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"type":0}
+        },
+        {
+            name: '免费广告探索',
+            num: 1,
+            data: {"head":{"cmdDataSplitLength":0,"cmdId":87,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"type":1}
+        },
+        {
+            name: '快速探索',
+            num: 2,
+            data: {"head":{"cmdDataSplitLength":0,"cmdId":88,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"type":0}
+        },
+        {
+            name: '广告快速探索',
+            num: 5,
+            data: {"head":{"cmdDataSplitLength":0,"cmdId":88,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"type":1}
+        }
+    ],
+    sendDanMu: {"head":{"cmdDataSplitLength":0,"cmdId":125,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"message":"","presetMessage":"1"},
+    desktopStart: {"head":{"cmdDataSplitLength":0,"cmdId":135,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"actionId":1},
+    cdkDo: {"head":{"cmdDataSplitLength":0,"cmdId":109,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"cdkeyCode":""},
+    level: {
+        sweep: {"head":{"cmdDataSplitLength":0,"cmdId":77,"cmdLength":0,"cmdSequence":0,"cmdVersion":31,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"type":0,"id":0,"subId":0,"sweepCardId":0},
+        two: {"head":{"cmdDataSplitLength":0,"cmdId":118,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""}}
+    },
+    pvp: {
+    pvp20:{"head":{"cmdDataSplitLength":0,"cmdId":80,"cmdLength":0,"cmdSequence":106,"cmdVersion":10802,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"pvpAreaId":1,"multi":3},
+    check: {"head":{"cmdDataSplitLength":0,"cmdId":81,"cmdLength":0,"cmdSequence":108,"cmdVersion":10802,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":"","os":"Windows"}},
+    pvpmulti:{"head":{"cmdDataSplitLength":0,"cmdId":48,"cmdLength":0,"cmdSequence":0,"cmdVersion":4,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"type":1,"id":0,"subId":0,"targets":[],"md5s":[],"fuid":"0","pvpAreaId":-1,"hyperBossType":0,"multi":3,"hyperBossStageId":-1,"extraMode":0},
+   battle_ini:{"head":{"cmdDataSplitLength":0,"cmdId":119,"cmdLength":0,"cmdSequence":85,"cmdVersion":20,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"key":"RECOVER_BATTLE","value":{"battleProgress":{"dashIndexes":[],"actionTag":0,"actionIndex":0,"totalAction":0,"battleMode":1,"stageID":0,"subStageID":0,"extraMode":0,"expeditionBattleUniqueId":0,"gameCostMoney":0,"gameCostRmb":0,"totalPrize":0,"totalSucPrize":0,"gameCount":0,"gameDuration":0,"battleDuration":0,"bBossRandomAttack":false,"gameScore":0,"gameScoreMap":{},"gameGold":0,"hitEnemy":0,"useAutoBomb":0,"useFreeBomb":0,"useBomb":0,"useReborn":0,"useADReborn":0,"endlessIndex":0,"enemyScores":[],"bossScores":[],"cryScores":[],"skillCryScores":[],"lootNums":[],"lootTypeIDs":[],"lootItemIDs":[],"lootStars":[],"lootLevels":[],"bossLootNum":0,"bossIndex":0,"bossMidIndex":0,"bossLarIndex":0,"bPirateLoot":false,"pirateDeadCount":0,"pirateDeadBossIndex":0,"pirateBossHpLeftRate":1,"pirateLootCounts":[],"startDashNum":0,"endDashNum":0,"readyItemData":[],"readySkillIds":[],"curPlaneHp":100000,"curPlaneWeaponGrade":3,"randomEnemyActionArrayIndexes":[],"pilotSkillTimer":0,"pilotSkillNum":0,"pilotSkillTotal":0,"curEndlessFriend":null,"rivalData":{"crown1Times":48,"crown2Times":0,"crown3Times":0,"endlessCup1Times":0,"endlessCup2Times":0,"endlessCup3Times":0,"hyperBoss1Times":0,"hyperBoss2Times":0,"hyperBoss3Times":0,"endlessWorldPvpWinTimes":0,"endlessWorldPvpChickenWinTimes":0,"endlessRankIndex":0,"endlessRankIndexLastWeek":0,"endlessRanking":0,"endlessRankingHighest":0,"endlessRankingLastWeek":0,"wHeadUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/9IU7CFljzLdGd3LlcXPkibP079wDuCrqswfcwic2ELIKF54YewEkicGzRsOEpevAkVphqTyl10bU8uc6lg7f6e4xQ/132","gHeadID":0,"gFrameID":1014,"helpCount":0,"isReceiveEnergy":false,"wName":"对手分数","gName":"","pilotId":1,"planeStarID":510,"planeStarType":3,"planeStyle":"i-p-r04","power":35565,"powerRankIndex":0,"sex":0,"stageStr":"15-7","stageId":16,"subStageId":8,"heroStageStr":"14-1","heroStageID":15,"heroSubStageID":2,"UID":"4092031062","vipLv":0,"userInfoFetched":false,"heartbeat":1754393835320,"nameIllegal":false,"avatarIllegal":false,"endlessHistoryHighestScore":7075840,"isOnline":true,"expeditionEndlessCrystalIds":[],"wave":0,"waveTime":0},"rivalHpMax":49985,"rivalCurseValue":0,"handledRivalRogueList":[],"endlessFriendUsed":false,"ctpTotalScore":0,"ctpComboTotalScore":0,"ctpComboBonusTotalScore":0,"ctpComboMax":0,"ctpInComboScoreMax":0,"ctpInComboScoreMin":0,"endlessFriendScoreRate":0.01,"endlessFriendOptScoreRate":0.01,"killEnemyCount":0,"killBossCount":0,"killBossCountBeforeSelectRogue":0,"useRebornBeforeSelectRogue":0,"avoidDeadlyStrikeCount":0,"dodgeDamageClearBulletCount":0,"dodgeDamageClearBulletRadiusMax":0,"isEnergy":true,"energyValue":10000,"isSuperEnergy":true,"superEnergyRemainTime":0,"superEnergyProgress":0,"accumulatedEnergyTime":0,"extraEnergyTime":0,"extraEnergyElapsedTime":0,"enemyRanLootCount":0,"enemyNum":[],"bossNum":[],"crystalStatsMap":{"0":{"lootNum":0,"scoreTotal":0,"typeNums":[],"typeScores":[],"smallMax":0,"middleMax":0,"largeMax":0},"1":{"lootNum":0,"scoreTotal":0,"typeNums":[],"typeScores":[],"smallMax":0,"middleMax":0,"largeMax":0},"2":{"lootNum":0,"scoreTotal":0,"typeNums":[],"typeScores":[],"smallMax":0,"middleMax":0,"largeMax":0},"3":{"lootNum":0,"scoreTotal":0,"typeNums":[],"typeScores":[],"smallMax":0,"middleMax":0,"largeMax":0}},"enemyRanScoreTotal":0,"pirateShipKillCount":0,"sLootNum":0,"weaponLootNum":0,"enemyScoreTotal":0,"enemyPlaneScoreTotal":0,"enemyScoreMax":-1,"enemyScoreMin":-1,"bPlaneHurtFir":false,"planeHpBase":0,"planeHurtMax":0,"planeHurtMin":0,"planeHurtNum":0,"planeHurtTotal":0,"planeHurtUnreduceWeaponNum":0,"planeHurtUpgradeWeaponNum":0,"upgradeWeaponNums":[],"getShieldNums":[],"planeEnergyTransNum":0,"planeDieNum":0,"hurtPlaneValue":0,"bNoHurtInBoss":false,"transNum":0,"planeHpAddItemNum":0,"planeHpAddItemMax":0,"planeHpAddItemMin":0,"planeHpAddItemTotal":0,"pirateBoxCount":0,"startDashDidNum":0,"endDashDidNum":0,"dashDidNum":0,"enemyDashNum":0,"bossDashNum":0,"pirateBossKillCount":0,"totalWave":9,"randomWave":0,"energyNum":0,"energyTime":0,"energyTimeMax":0,"energyTimeMin":0,"energyStartTime":0,"energyOnCount":0,"extraEnergyTimeMin":0,"extraEnergyTimeMax":0,"extraEnergyTimeTotal":0,"superEnergyNum":0,"superEnergyTime":0,"superEnergyTimeMax":0,"superEnergyTimeMin":0,"superEnergyTimeTotal":0,"superEnergyExtendNum":0,"superEnergyExtendTimeMax":0,"superEnergyExtendTimeMin":0,"shieldFrameCount":0,"shieldNum":0,"shieldOnCount":0,"shieldTimeMax":0,"shieldTimeMin":0,"pilotShieldMax":0,"pilotShieldTotal":0,"friendPlaneTotalTime":0,"efTime":0,"efOnTotal":0,"efOnMax":0,"showBombInterval":-1,"showAutoBombInterval":-1,"autoBombMinCD":36000,"bombMinCD":36000,"bombCoolTimer":0,"comboNum":0,"comboNums":[],"comboBonusNums":[],"comboDisMax":0,"comboDisMin":0,"comboIntervalMax":-1,"comboIntervalMin":-1,"hpMaxInBattle":0,"mainAttackMax":0,"assistAttackMax":0,"wingmanAttackMax":0,"disturbPalsyCount":0,"eatBulletCount":0,"eatBulletTotalScore":0,"rogueExp":0,"rogueSkillIds":[],"buffSummaryDatas":{},"skillMgrSnapshot":null,"localPlayerSkillSnapshot":null,"curseActivityId":-1,"selectRogueStartTimestamp":0,"selectRogueTimes":0,"waitSelectRogueSkillIDs":[],"selectRogueLevel":0,"selectedRogueCount":0,"selectRogueType":0,"savedPlaneData":null},"startResponse":1008611,"saved":true}},
+   RECOVER_BATTLE:{"head":{"cmdDataSplitLength":0,"cmdId":120,"cmdLength":0,"cmdSequence":0,"cmdVersion":900,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"key":"RECOVER_BATTLE","value":1008611,"shopIndex":4,"sdTargetData":{"type":12,"sd_id":21,"quality":4,"level":0,"num":10},"type":0,"id":12,"subId":3,"sweepCardId":112233,"mode":0,"adBuy":"1"}
+  },
+    cup:`{"head":{"cmdDataSplitLength":0,"cmdId":127,"cmdLength":0,"cmdSequence":73,"cmdVersion":11302,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"readEnd":false}`,
+    ex:`{"head":{"cmdDataSplitLength":0,"cmdId":175,"cmdLength":0,"cmdSequence":73,"cmdVersion":11302,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"readEnd":false}`,
+    wc:`{"head":{"cmdDataSplitLength":0,"cmdId":157,"cmdLength":0,"cmdSequence":73,"cmdVersion":11302,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"readEnd":false}`,
+    upgrade:{"head":{"cmdDataSplitLength":0,"cmdId":5,"cmdLength":0,"cmdSequence":0,"cmdVersion":20,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"id":6643158,"index":1,"ids":[{"id":1766954,"type":1,"sd_id":4,"quality":400,"level":0,"num":1}]},
+    up:{"head":{"cmdDataSplitLength":0,"cmdId":4,"cmdLength":0,"cmdSequence":0,"cmdVersion":20,"headVersion":0,"timestamp":0,"crcVerify":0,"platform":0,"reconnect":false,"sid":"","uid":""},"index":1,"id":1008622,"ids":1008611},
+    equipd:{"0":{"0":{"id":[],"level":[],"quality":[]},"1":{"id":[],"level":[],"quality":[]},"2":{"id":[],"level":[],"quality":[]},"3":{"id":[],"level":[],"quality":[]},"4":{"id":[],"level":[],"quality":[]},"5":{"id":[],"level":[],"quality":[]},"6":{"id":[],"level":[],"quality":[]},"7":{"id":[],"level":[],"quality":[]},"8":{"id":[],"level":[],"quality":[]},"9":{"id":[],"level":[],"quality":[]},"10":{"id":[],"level":[],"quality":[]}},"1":{"0":{"id":[],"level":[],"quality":[]},"1":{"id":[],"level":[],"quality":[]},"2":{"id":[],"level":[],"quality":[]},"3":{"id":[],"level":[],"quality":[]},"4":{"id":[],"level":[],"quality":[]},"5":{"id":[],"level":[],"quality":[]},"6":{"id":[],"level":[],"quality":[]},"7":{"id":[],"level":[],"quality":[]},"8":{"id":[],"level":[],"quality":[]},"9":{"id":[],"level":[],"quality":[]},"10":{"id":[],"level":[],"quality":[]}},"2":{"0":{"id":[],"level":[],"quality":[]},"1":{"id":[],"level":[],"quality":[]},"2":{"id":[],"level":[],"quality":[]},"3":{"id":[],"level":[],"quality":[]},"4":{"id":[],"level":[],"quality":[]},"5":{"id":[],"level":[],"quality":[]},"6":{"id":[],"level":[],"quality":[]},"7":{"id":[],"level":[],"quality":[]},"8":{"id":[],"level":[],"quality":[]},"9":{"id":[],"level":[],"quality":[]},"10":{"id":[],"level":[],"quality":[]}},"3":{"0":{"id":[],"level":[],"quality":[]},"1":{"id":[],"level":[],"quality":[]},"2":{"id":[],"level":[],"quality":[]},"3":{"id":[],"level":[],"quality":[]},"4":{"id":[],"level":[],"quality":[]},"5":{"id":[],"level":[],"quality":[]},"6":{"id":[],"level":[],"quality":[]},"7":{"id":[],"level":[],"quality":[]},"8":{"id":[],"level":[],"quality":[]},"9":{"id":[],"level":[],"quality":[]},"10":{"id":[],"level":[],"quality":[]}}},
+    jy_sort:["115200","28800","19800","15920","14592","13264","11936","9648","9600","8440","8000","7332","7232","6664","6024","5996","5328","4816","4800","4660","3992","3680","3372","3324","3064","2880","2756","2656","2448","2140","1832","1524","1216","1200"],
+    jy_value:{"3680":[],"3372":[],"3064":[],"2756":[],"2448":[],"2140":[],"1832":[],"1524":[],"1216":[],"8000":[],"7332":[],"6664":[],"5996":[],"5328":[],"4660":[],"3992":[],"3324":[],"2656":[],"15920":[],"14592":[],"13264":[],"11936":[],"9648":[],"8440":[],"7232":[],"6024":[],"4816":[],"115200":[],"28800":[],"9600":[],"4800":[],"2880":[],"1200":[],"19800":[]},
+    jy:{"0":{"8":"3680","7":"3372","6":"3064","5":"2756","4":"2448","3":"2140","2":"1832","1":"1524","0":"1216"},"1":{"8":"8000","7":"7332","6":"6664","5":"5996","4":"5328","3":"4660","2":"3992","1":"3324","0":"2656"},"2":{"8":"15920","7":"14592","6":"13264","5":"11936","4":"9648","3":"8440","2":"7232","1":"6024","0":"4816"},"13":{"0":"1200"},"4":{"0":"4800"},"5":{"0":"9600"},"6":{"0":"28800"},"7":{"0":"115200"},"11":{"0":"9600"},"12":{"0":"19800"},"14":{"0":"2880"}},
+  equip_id:{"0":{"0":"突击","1":"尖峰","2":"凤凰","3":"激光","4":"异形","5":"曙光","6":"刀锋","7":"冰河","8":"星河","1000":"强袭","1001":"悍将","1002":"无双","1003":"神锋","1004":"领主"},"1":{"0":"金刚","1":"神圣","2":"黄金","3":"聚能","4":"魔龙","5":"月光","6":"原生","7":"寒霜","8":"时域","1000":"止战","1001":"守月","1002":"永世","1003":"月华","1004":"霜华"}},
+  param:["key","maxSysNoticeId","maxGiftMsgId","maxSysMsgId","lastBulletinId","pt","someData","data1","gbSyncSwitch","gbEquipSync","gbFightSync","requests","guildId","headUrl","nick","id","type","uids","isRefresh","shopIndex","sdTargetData","adBuy","specialTreasureId","signature","encryptedData","iv","cloudID","errMsg","gameClubDyData","manualOpen","value","subId","targets","md5s","pvpAreaId","hyperBossType","multi","hyperBossStageId","galaxyBattleStarLv","galaxyBattleStarId","galaxyBattleCometId","galaxyBattleTeamFight","extraMode","aidTime","ashTime","totalDashTime","boomATK","bombMinCD","autoBombMinCD","bossCount","bossLarge","bossLargeScore","bossReward","bossSmall","bossSmallScore","comboTotalNum","comboNum","comboScore","comboSign","comboSignScore","comboDisMax","comboDisMin","comboIntervalMax","comboIntervalMin","dsArr","endlessLoopCount","enemiesLarge","enemiesLargeScore","enemiesLargeStorm","enemiesMid","enemiesMidScore","enemiesMidStorm","enemiesPasserby","enemiesPasserbyScore","enemiesPasserbyStorm","enemiesSmall","enemiesSmallScore","enemiesSmallStorm","enemyRanScoreTotal","engineDmgMax","enterWormholeNum","flameTime","hp","hpMax","improperDs","isRandomBossKill","m1","m2","m1Large","m1LargeScore","m1Mid","m1MidScore","m1Small","m1SmallScore","m1LargeSkill","m1LargeSkillScore","m1MidSkill","m1MidSkillScore","m1SmallSkill","m1SmallSkillScore","m1Map","props","useFreeBomb","useAutoBomb","score","scoreMap","scoreShieldSecond","secondCnt","fps","gameDuration","battleDuration","shieldSecond","stormSecond","stormTime","extraEnergyTimeMin","extraEnergyTimeMax","extraEnergyTimeTotal","superEnergyNum","superEnergyTimeMin","superEnergyTimeMax","superEnergyTimeTotal","superEnergyExtendNum","superEnergyExtendTimeMax","superEnergyExtendTimeMin","success","totalWave","randomWave","weaponDmgMax","wingmanDmgMax","disturbPalsyCount","planeHpBase","planeHurtMax","planeHurtMin","planeHurtNum","planeHurtTotal","planeHurtUnreduceWeaponNum","planeHurtUpgradeWeaponNum","upgradeWeaponNums","getShieldNums","planeEnergyTransNum","eatBulletCount","eatBulletTotalScore","shieldEatBulletCount","shieldEatBulletTotalScore","freePilotSkillNum","usedPilotSkillNum","hurtInvincibleTime","avoidDeadlyStrikeCount","dodgeDamageClearBulletCount","dodgeDamageClearBulletRadiusMax","rogueSkillIds","buffSummaryDatas","lastDashIndexes","actionIndex","totalAction","actionTag","damageToBoss","clientVersion","dpsStats","divisionDamages","battleMode","param","onlyEquipPresetPower","presetInfo","isQuery","equipPresetId","syncState","lives","exp","rogues","playerOperate","playerOnHide","sweepCardId","activityId","rewardId","moonOptionRewards"]
+}
